@@ -19,10 +19,22 @@ markupsafe==3.0.3
     #   flask
     #   jinja2
     #   werkzeug
+numpy==2.0.2
+    # via pandas
+pandas==2.3.3
+    # via -r app/requirements.in
+python-dateutil==2.9.0.post0
+    # via pandas
 python-dotenv==1.2.1
     # via -r app/requirements.in
+pytz==2026.2
+    # via pandas
 redis==7.0.1
     # via -r app/requirements.in
+six==1.17.0
+    # via python-dateutil
+tzdata==2026.2
+    # via pandas
 werkzeug==3.1.8
     # via flask
 zipp==3.23.1
